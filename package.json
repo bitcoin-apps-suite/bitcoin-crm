@@ -1,0 +1,44 @@
+{
+  "name": "bitcoin-crm",
+  "version": "1.0.0",
+  "description": "Decentralized Customer Relationship Management on Bitcoin SV",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "next dev -p 3008",
+    "build": "next build",
+    "start": "next start -p 3008",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "keywords": [
+    "bitcoin",
+    "bsv",
+    "blockchain",
+    "crm",
+    "decentralized"
+  ],
+  "author": "The Bitcoin Corporation LTD (UK Company No. 16735102)",
+  "license": "Open-BSV",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bitcoin-apps-suite/bitcoin-crm.git"
+  },
+  "dependencies": {
+    "next": "14.0.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "typescript": "^5",
+    "tailwindcss": "^3.3.0",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "lucide-react": "^0.263.1",
+    "next-auth": "^4.24.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.0"
+  }
+}
